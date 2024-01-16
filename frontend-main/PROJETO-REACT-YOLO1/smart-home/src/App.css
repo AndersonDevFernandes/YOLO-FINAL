@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* INDEX */
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+/* HEADER */
+
+.header {
+  width: 390px;
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px #ececec solid; 
+  border-radius: 10px 10px 0 0; 
+}
+
+.btnHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.txt-box-Header {
+  margin-top: 30px;
+}
+
+.texttop {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+/* CADASTRAR DISPOSITIVOS */
+
+.main {
+  width: 390px;
+  height: 600px;
+  border-left: 2px #ececec solid;
+  border-right: 2px #ececec solid;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 99%,
+    rgba(159, 159, 159, 1) 100%
+  ); 
+}
+
+.text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-dispositivo {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+  margin-bottom: 3px;
+}
+
+.box {
+  margin-top: 26px;
+}
+
+.box-cad1 {
+  width: 343px;
+  height: 44px;
+  border-radius: 8px;
+  color: #d0d5dd;
+  padding: 10px;
+  gap: 8px;
+  background-color: #e7e7e7;
+  border: none;
+}
+
+.box-cad {
+  width: 343px;
+  height: 44px;
+  border-radius: 8px;
+  color: #d0d5dd;
+  padding: 10px;
+  gap: 8px;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0px 0px 0px 4px #ffe9f6;
+  border: 1px solid var(--Gray-300, #d0d5dd);
+}
+
+.seletor {
+  width: 343px;
+  height: 44px;
+  border-radius: 8px;
+  color: #989898;
+  padding: 10px, 14px, 10px, 14px;
+  gap: 8px;
+  border: #d0d5dd 1px solid;
+}
+
+.seletorBox {
+  margin-top: 26px;
+}
+
+.submitBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submitCad {
+  width: 245px;
+  height: 36px;
+  border-radius: 50px;
+  font-family: "Inter", sans-serif;
+  color: #344054;
+  font-weight: 500;
+  border: #d0d5dd 1px solid;
+  margin-top: 36px;
+  cursor: pointer;
+}
+
+/* AMBIENTES */
+.teste {
+  width: 390px;
+  height: 600px;
+  border-left: 2px #ececec solid;
+  border-right: 2px #ececec solid;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 99%,
+    rgba(159, 159, 159, 1) 100%
+  );
+}
+
+/* FOOTER */
+
+.footer {
+  width: 390px;
+  height: 56px;
+  padding: 0px, 20px, 0px, 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border: 2px #ececec solid;
+  border-radius: 0 0 10px 10px; /* Borda externa arredondada nas extremidades inferiores */
+}
+
+.btn-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12.1px;
+  color: #667085;
+  cursor: pointer;
+}
+
+.img-footer {
+  background-color: #ffffff;
+  width: 94.6px;
+  height: 50px;
+  cursor: pointer;
+  border: #ffffff;
+  gap: 10px;
+  border: none;
+}
+
+/* MODAL */
+
+.modalMain{
+  
+  width: 387px;
+  height: 335px;
+  background-color: #ffffff;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.modalInner{
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.Modalbord{
+  width: 387px;
+  height: 335px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: #989898 2px solid;
+  position: relative;
+  overflow: hidden;
+  margin-left: 54.6rem;
+  margin-top: 15rem;
+}
+
+.text-modal{
+  font: Inter;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: 20px;
+}
+
+.text-modal-confirmacao{
+  font: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 20px;
+}
+
+.submitModal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 121px;
+  height: 36px;
+  padding: 8px, 50px, 8px, 50px;
+  border-radius: 20px;
+  border: 1px;
+  gap: 8px;
+  background: rgba(255, 48, 151, 1);
+  border: 1px solid rgba(255, 48, 151, 1);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  margin-top: 40px;
+}
+
+.btn-txt-modal{
+ font-family: "Inter";
+ font-size: 14px;
+ font-weight: 600;
+ line-height: 20px;
+ letter-spacing: 0em;
+ text-align: left;
+ color: #ffffff;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 480px) {
+  .header {
+    width: 95%;
+  }
+
+  .main {
+    width: 95%;
+  }
+
+  .footer {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    width: 95%;
+  }
+
+  .main {
+    width: 95%;
+  }
+
+  .footer {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    width: 95%;
+  }
+
+  .main {
+    width: 95%;
+  }
+
+  .form {
+    width: 310px;
+  }
+
+  .box-cad {
+    width: 95%;
+  }
+
+  .footer {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modalMain,
+  .Modalbord {
+    width: 100%;
+    margin: 0;
+  }
+
+  .modalInner {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .modalMain,
+  .Modalbord {
+    width: 100%;
+    margin: 0;
+  }
+
+  .modalInner {
+    margin: 5px;
+  }
+}
